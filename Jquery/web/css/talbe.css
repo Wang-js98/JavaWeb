@@ -1,0 +1,29 @@
+.plussub {
+    width:120px;
+    height:32px;
+    border:1px solid #ccc;
+    background:#fff;
+    margin:0 auto;
+}
+.plussub span {
+    width:30px;
+    height:30px;
+    float:left;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+}
+.plussub .sub {
+    border-right:1px solid #ccc;
+}
+.plussub .plus {
+    border-left:1px solid #ccc;
+}
+.plussub input[type="text"] {
+    border:none;
+    height:30px;
+    width:56px;
+    text-align:center;
+    float:left;
+    line-height:30px;
+}

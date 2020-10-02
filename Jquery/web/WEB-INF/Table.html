@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/table.js"></script>
+    <link rel="stylesheet" href="../css/talbe.css">
+
+</head>
+<script>
+    $(function(){
+        $("button:contains('全选')").click(
+            function(){
+
+            });
+        $("#select").click(function(){
+            var isChecked=$("#select").prop("checked");
+            $("table input[type='checkbox']").attr("checked",isChecked)
+
+        })
+
+        $("#select1").click(function(){
+            var isChecked=$("#select1").prop("checked");
+            $("table input[type='checkbox']").attr("checked",isChecked)
+
+        })
+    })
+</script>
+
+<style>
+    table{
+        width: 1000px;
+    }
+    table,td{
+        border: 1px solid black;
+    }
+</style>
+<body>
+<table >
+    <thead>
+    <tr>
+        <td><input type="checkbox" id="select">全选</td>
+        <td>商品信息</td>
+        <td>商品参数</td>
+        <td>单价</td>
+        <td>数量</td>
+        <td>金额</td>
+        <td>操作</td>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+
+</table>
+    <div style="background-color: aqua"> <input type="checkbox" id="select1">全选<h1 style="color: grey">总价格：<span id="sumprice">0</span></h1> </div>
+<div> <button class="delete">删除商品</button></div>
+
+</body>
+</html>

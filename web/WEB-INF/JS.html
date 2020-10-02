@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式</title>
+    <script type="text/javascript">
+        /*
+        需求
+        当用户点击了校验按钮，要获取输出框中的内容，然后验证其是否合法
+        验证的规则是：必须由字母，数字，下划线组成，并且长度是5到12位；
+
+      */
+        //表示字符串中，是否包含字母e
+        /*var patt=new RegExp("e");*/
+        //二者含义一样都是正则表达式
+        /*var patt=/e/;
+*/
+        //表示要求的字符串包含任意大写字母
+       /* var patt=/[A-Z]/;*/
+        //表示要求的字符串包含任意数字
+        /* var patt=/[0-9]/;*/
+        //表示要求字符串中，是否要包含字母a或b或c中的任意一个
+        //!!最常用/\w/    查找当个字符
+       // var patt=/\w/;    表示要求字符串是否包含字母，数字，下划线
+        //var patt=/a+/;      表示字符串中是否包含至少一个a
+        //var patt=/a*/;      表示字符串中是否包含零个或多个a
+
+        var patt=/\w/;
+        alert(patt);
+
+        var str="abcd";
+        alert(patt.test(str))
+
+    </script>
+
+
+
+</head>
+<body>
+用户名：<input type="text"  id="username"/>
+<button oncancel="onclickFun()"> 校验</button>
+</body>
+</html>

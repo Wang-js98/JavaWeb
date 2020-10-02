@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/05_Web/05_Web.iml" filepath="$PROJECT_DIR$/05_Web/05_Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_filter/15_filter.iml" filepath="$PROJECT_DIR$/15_filter/15_filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EL_JSTL/EL_JSTL.iml" filepath="$PROJECT_DIR$/EL_JSTL/EL_JSTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jquery/Jquery.iml" filepath="$PROJECT_DIR$/Jquery/Jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstrap/bootstrap.iml" filepath="$PROJECT_DIR$/bootstrap/bootstrap.iml" />
+    </modules>
+  </component>
+</project>
